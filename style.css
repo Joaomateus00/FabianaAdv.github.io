@@ -1,0 +1,166 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+.conteiner{
+    position: relative;
+    width: 100%;
+    margin: 0% auto;
+    height: 150px;
+    background: linear-gradient(#818274, #506266);
+    
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.conteiner-img{
+    position: relative;
+    height: 30px;
+}
+.icones{
+    width: 30px;
+    height: 25px;
+    position: relative;
+    left: 70%;
+    top: -23px;
+}
+.icones:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 3px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.menu{
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    left: 25%;
+    top:  -45%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 20px;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+ul a:hover{
+    text-decoration: underline rgb(201, 145, 6);
+}
+.conteiner-conteudo{
+    width: 100%;
+    height: 462px;
+    position: relative;
+    background:linear-gradient(#818274, #506266);
+}
+.conteudo-prin{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-family: 'Allura', cursive;
+    font-size: 35px;
+    text-align: center;
+    max-width: 85%;
+}
+#botaoduvida{
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: block;
+    left: -250px;
+}
+.quemsou{
+    width: 100%;
+    height: 300px;
+}
+.sobre{
+    width: 300px;
+    float: left;
+    position: relative;
+    top: 50%;
+    left: 50px;
+}
+.sobre h1{
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+}
+.sobre p{
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    margin: 5px;
+    margin-top: 7px;
+}
+.retfabiana{
+    width: 300px;
+    height: 500px;
+    position: relative;
+    left: 50%;
+    top: 50px;
+}
+.conteiner-form{
+    width: 92%;
+    height: 45%;
+    position: relative;
+    margin: auto;
+    top: 250px;
+    padding: 50px;
+    background-color: #61727C;
+    overflow: hidden;
+}
+.formulario input, textarea{
+    width: 50%;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    left: 27%;
+}
+.formulario h1{
+    font-size: 45px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+.formulario input, text, textarea{
+    font-family:'Dosis', sans-serif; 
+    font-size:30px;
+}
+/* CSS conteudo SOBRE NÓS */
+.conteiner-img{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.martelo{
+    width: 100%;
+    height: 80%;
+}
+.conteudo-sobre p{
+    font-size: 20px;
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    top: -100px;
+    font-family: 'Dosis', sans-serif;
+
+}
+.listasobre{
+    position: relative;
+    padding-left: 70px;
+    top: -90px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.listasobre li{
+    list-style: square;
+    font-family: 'Dosis', sans-serif;
+}
