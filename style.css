@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+    overflow-x: hidden;
+}
+
 .conteiner{
     position: relative;
     width: 100%;
@@ -36,10 +40,10 @@
 }
 .menu{
     position: relative;
-    overflow: hidden;
     width: 70%;
     left: 25%;
     top:  -45%;
+    margin: auto;
 }
 ul{
     list-style: none;
@@ -105,33 +109,37 @@ ul a:hover{
     left: 50%;
     top: 50px;
 }
+/*CSS FORMULÁRIO*/
 .conteiner-form{
-    width: 92%;
-    height: 45%;
-    position: relative;
-    margin: auto;
-    top: 250px;
-    padding: 50px;
+    width: 100%;
+    height: 80vh;
     background-color: #61727C;
-    overflow: hidden;
+    background-size: cover;
+}
+.formulario{
+    margin-top: 5%;
+    width: 70%;
+    float: right;
+    position: relative;
+    
 }
 .formulario input, textarea{
     width: 50%;
     box-sizing: border-box;
     text-align: left;
-    padding: 5px;
-    margin: 5px;
-    position: relative;
-    left: 27%;
-}
+    padding: 8px;
+    display: block;
+    margin: auto;
+}   
 .formulario h1{
-    font-size: 45px;
+    font-size: 30px;
     font-family: 'Dosis', sans-serif;
     text-align: center;
+    
 }
 .formulario input, text, textarea{
     font-family:'Dosis', sans-serif; 
-    font-size:30px;
+    font-size:15px;
 }
 /* CSS conteudo SOBRE NÓS */
 .conteiner-img{
@@ -163,4 +171,34 @@ ul a:hover{
 .listasobre li{
     list-style: square;
     font-family: 'Dosis', sans-serif;
+}
+/*CSS CONTATO*/
+.conteiner-falec{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 40%;
+}
+.faleconosco{
+    display: block;
+}
+.faleconosco h1{
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    text-align: left;
+    padding-left: 3%;
+    padding-top: 10%;
+    text-indent: 25px;
+}
+.faleconosco p{
+    text-indent: 25px;
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    text-align: left;
+    padding-left: 3%;
+    margin-top: 20px;
+}
+#linkwpp-fale{
+    float: left;
+    padding-left: 8%;
 }
