@@ -13,6 +13,7 @@ body{
     margin: 0% auto;
     height: 150px;
     background: linear-gradient(#818274, #506266);
+    list
     
 }
 .logo{
@@ -201,4 +202,5 @@ ul a:hover{
 #linkwpp-fale{
     float: left;
     padding-left: 8%;
+    position: ;
 }
