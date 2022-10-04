@@ -13,7 +13,6 @@ body{
     margin: 0% auto;
     height: 150px;
     background: linear-gradient(#818274, #506266);
-    list
     
 }
 .logo{
@@ -202,5 +201,41 @@ ul a:hover{
 #linkwpp-fale{
     float: left;
     padding-left: 8%;
-    position: ;
+}
+
+/*CSS BLOG*/
+.contPrincBlog{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr ;
+    justify-items: left;
+    align-items: center;
+}
+.contBlog{
+    display: flex;
+    width: 90%;
+    height: 250px;
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+}
+.linkBlog{
+    text-decoration: none;
+    color: black;
+}
+.paginas{
+   position: relative;
+   top: 0%;
+   left: calc(100% - 50px)
+}
+.pagina{
+   color: rgb(168, 124, 11);
 }
