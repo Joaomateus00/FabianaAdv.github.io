@@ -211,6 +211,7 @@ ul a:hover{
     grid-template: 1fr 1fr / 1fr 1fr ;
     justify-items: left;
     align-items: center;
+    background-color: #818274;
 }
 .contBlog{
     display: flex;
