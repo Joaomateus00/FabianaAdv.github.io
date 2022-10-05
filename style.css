@@ -13,7 +13,6 @@ body{
     margin: 0% auto;
     height: 150px;
     background: linear-gradient(#818274, #506266);
-    
 }
 .logo{
     width: 100px;
@@ -217,7 +216,7 @@ ul a:hover{
     display: flex;
     width: 90%;
     height: 250px;
-    border: 2px solid black;
+    border: 6px solid black;
     margin-top: 30px;
     margin-left: 30px;
     align-items: center;
@@ -226,6 +225,7 @@ ul a:hover{
     flex-wrap: wrap;
     font-size: 35px;
     font-family: 'Dosis', sans-serif;
+    
 }
 .linkBlog{
     text-decoration: none;
@@ -238,4 +238,32 @@ ul a:hover{
 }
 .pagina{
    color: rgb(168, 124, 11);
+}
+#martelo{
+    display: none;
+    width: 600px;
+    height: 250px;
+    opacity: 0.5;
+    position: absolute;
+}
+#familia{
+    display: none;
+    width: 600px;
+    height: 250px;
+    opacity: 0.5;
+    position: absolute;
+}
+#casa{
+    display: none;
+    width: 600px;
+    height: 250px;
+    opacity: 0.5;
+    position: absolute;
+}
+#noivos{
+    display: none;
+    width: 600px;
+    height: 250px;
+    opacity: 0.5;
+    position: absolute; 
 }

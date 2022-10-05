@@ -16,6 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <script src="../scripts/script.js"></script>
 </head>
 <body>
     <div class="conteiner">
@@ -34,16 +35,23 @@
             </nav>      
     </div>
     <div class="contPrincBlog">
-        <div class="contBlog b1">
-            <a class="linkBlog b1" href="https://www.instagram.com/p/CerLkZvOK7h/"><strong>Você sabe o que é Planejamento Sucessório Familiar ?</strong></a><p class="escritoBy">Escrito por Fabiana Campos</p>
+        <div class="contBlog b1"  onmouseover="backgroundFamilia()" onmouseout="removeBackFamilia()">
+            <img src="../imagens/familia.jpg" id="familia">
+            <a class="linkBlog b1" href="https://www.instagram.com/p/CerLkZvOK7h/"><strong>Você sabe o que é Planejamento Sucessório Familiar ?</strong></a>
+            <p class="escritoBy">Escrito por Fabiana Campos</p>
+            
         </div>
-        <div class="contBlog b2">
+        <div class="contBlog b2" onmouseover="background()" onmouseout="removeBack()">
+            <img src="../imagens/martelo.jpg" id="martelo">
             <a class="linkBlog b2" href="https://www.instagram.com/p/CfPWZsAJsJB/"><strong> Comprar ou vender um imóvel com cláusula de usufruto, é possível ?</strong></a><p class="escritoBy">Escrito por Fabiana Campos</p>
+            
         </div>
-        <div class="contBlog b3">
+        <div class="contBlog b3" onmouseover="backgroundCasa()" onmouseout="removeBackCasa()">
+            <img src="../imagens/casa.jpg" id="casa">
             <a class="linkBlog b3" href="https://www.instagram.com/p/CfRfFrgLMhz/"><strong> Posso Vender imóvel por Cessão de Direitos Hereditários ?</strong></a><p class="escritoBy">Escrito por Fabiana Campos</p>
         </div>
-        <div class="contBlog b4">
+        <div class="contBlog b4" onmouseover="backgroundNoivos()" onmouseout="removeBackNoivos()">
+            <img src="../imagens/casamento.jpg" id="noivos">
             <a class="linkBlog b4" href="https://www.instagram.com/p/CgspU2fL4MB/"><strong>Não Sou Casada no Papel com meu Companheiro, quais são os meus direitos?</strong></a><p class="escritoBy">Escrito por Fabiana Campos</p>
         </div>
         <div class="paginas">
@@ -53,7 +61,7 @@
             </ul>
         </div>
     </div>
-
+    <script src="../scripts/script.js"></script>
 </footer>
 </body>
 </html>
