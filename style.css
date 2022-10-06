@@ -292,6 +292,7 @@ ul a:hover{
     }
     ul{
         gap: 10px;
+        font-size: 15px;
     }
     .conteudo-prin{
         font-size: 20px;
