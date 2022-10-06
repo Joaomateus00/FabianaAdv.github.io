@@ -268,3 +268,43 @@ ul a:hover{
     opacity: 0.5;
     position: absolute; 
 }
+@media  screen and (max-width: 900px) and (max-height: 900px){
+    .conteiner{
+        position: relative;
+        width: 100%;
+        margin: 0% auto;
+        height: 150px;
+        background: linear-gradient(#818274, #506266);
+    }
+    .logo{
+        width: 70px;
+        height: 70px;
+    }
+    .menu{
+        position: relative;
+        width: 50%;
+        left: -5%;
+        top: -30%;
+    }
+    .icones{
+        position: relative;
+        left: 100%;
+    }
+    ul{
+        gap: 10px;
+    }
+    .conteudo-prin{
+        font-size: 20px;
+        left: 0%;
+    }
+    .sobre{
+        top: 0%;
+        left: 0%;
+    }
+    .retfabiana{
+        width: 150px;
+        height: 300px;
+        left: 5%;
+
+    }
+}
