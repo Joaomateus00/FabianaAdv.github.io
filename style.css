@@ -291,6 +291,8 @@ ul a:hover{
         left: 100%;
     }
     ul{
+        display: flex;
+        justify-content: space-between;
         gap: 10px;
         font-size: 15px;
     }
